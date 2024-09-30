@@ -1,0 +1,89 @@
+ERROR - 2024-09-18 12:05:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\CAPSTONENAMIN\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CAPSTONENAMIN\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'caps_db', 3306, '', 0)
+#1 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPSTONENAMIN\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPSTONENAMIN\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\CAPSTONENAMIN\app\Controllers\SigninController.php(23): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(943): App\Controllers\SigninController->loginAuth()
+#8 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#9 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CAPSTONENAMIN\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CAPSTONENAMIN\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\CAPSTONENAMIN\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\CAPSTONENAMIN\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CAPSTONENAMIN\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\laragon\www\CAPSTONENAMIN\app\Controllers\SigninController.php(23): CodeIgniter\BaseModel->first()
+#6 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(943): App\Controllers\SigninController->loginAuth()
+#7 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#8 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CAPSTONENAMIN\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CAPSTONENAMIN\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-09-18 12:05:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\SigninController.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONENAMIN\\public\\index.php')
+CRITICAL - 2024-09-18 14:05:00 --> ErrorException: Undefined array key "Transmissin"
+in APPPATH\Views\user\cars.php on line 171.
+ 1 APPPATH\Views\user\cars.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Transmissin"', 'C:\\laragon\\www\\CAPSTONENAMIN\\app\\Views\\user\\cars.php', 171)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPSTONENAMIN\\app\\Views\\user\\cars.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/cars', [], true)
+ 5 APPPATH\Controllers\CarController.php(20): view('user/cars', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CarController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONENAMIN\\public\\index.php')
+CRITICAL - 2024-09-18 16:12:09 --> TypeError: number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\user\cars.php on line 227.
+ 1 APPPATH\Views\user\cars.php(227): number_format('200 000', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPSTONENAMIN\\app\\Views\\user\\cars.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/cars', [], true)
+ 5 APPPATH\Controllers\CarController.php(20): view('user/cars', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CarController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONENAMIN\\public\\index.php')
+CRITICAL - 2024-09-18 16:31:03 --> ArgumentCountError: Too few arguments to function App\Controllers\CarController::cart(), 0 passed in C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php on line 943 and exactly 1 expected
+in APPPATH\Controllers\CarController.php on line 161.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CarController->cart()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONENAMIN\\public\\index.php')
+CRITICAL - 2024-09-18 17:18:57 --> ErrorException: Undefined array key "Image"
+in APPPATH\Views\user\cart.php on line 97.
+ 1 APPPATH\Views\user\cart.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Image"', 'C:\\laragon\\www\\CAPSTONENAMIN\\app\\Views\\user\\cart.php', 97)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPSTONENAMIN\\app\\Views\\user\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/cart', [], true)
+ 5 APPPATH\Controllers\CarController.php(154): view('user/cart')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CarController->addtocart()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONENAMIN\\public\\index.php')

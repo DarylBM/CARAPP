@@ -1,0 +1,537 @@
+ERROR - 2024-04-04 04:07:26 --> mysqli_sql_exception: Table 'itc11.users' doesn't exist in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@...', 'email', Array, NULL, 'email')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@...', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-04 04:07:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'itc11.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:07:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'itc11.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:07:26 --> [Caused by] mysqli_sql_exception: Table 'itc11.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-04 04:15:22 --> mysqli_sql_exception: Table 'caps_db.users' doesn't exist in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@...', 'email', Array, NULL, 'email')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@...', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-04 04:15:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:15:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:15:22 --> [Caused by] mysqli_sql_exception: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-04 04:20:06 --> mysqli_sql_exception: Table 'caps_db.users' doesn't exist in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@...', 'email', Array, NULL, 'email')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@...', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-04 04:20:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:20:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:20:06 --> [Caused by] mysqli_sql_exception: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-04 04:21:18 --> mysqli_sql_exception: Table 'caps_db.users' doesn't exist in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@...', 'email', Array, NULL, 'email')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@...', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-04 04:21:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:21:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:21:18 --> [Caused by] mysqli_sql_exception: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-04 04:21:33 --> mysqli_sql_exception: Table 'caps_db.users' doesn't exist in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@...', 'email', Array, NULL, 'email')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@...', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-04 04:21:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:21:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:21:33 --> [Caused by] mysqli_sql_exception: Table 'caps_db.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-04 04:26:20 --> mysqli_sql_exception: No database selected in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@...', 'email', Array, NULL, 'email')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@...', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-04 04:26:20 --> CodeIgniter\Database\Exceptions\DatabaseException: No database selected
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:26:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: No database selected
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 04:26:20 --> [Caused by] mysqli_sql_exception: No database selected
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'jovanmillera85@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovanmillera85@gmail.com', 'email', [...], null, 'email')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovanmillera85@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 14:36:17 --> ErrorException: Undefined property: CodeIgniter\View\View::$m_rental
+in APPPATH\Views\layout\dashboard-layout.php on line 17.
+ 1 APPPATH\Views\layout\dashboard-layout.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$m_rental', 'C:\\laragon\\www\\CAPST\\app\\Views\\layout\\dashboard-layout.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\layout\\dashboard-layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/dashboard-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/home', [], true)
+ 6 APPPATH\Controllers\UserController.php(13): view('dashboard/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\UserController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-04 16:07:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "halutama/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('halutama/header.php')
+ 2 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('halutama/header', null, true)
+ 3 APPPATH\Views\dashboard\ecommerce.php(35): CodeIgniter\View\View->include('halutama/header')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\dashboard\\ecommerce.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard/ecommerce', [], true)
+ 7 APPPATH\Controllers\UserController.php(15): view('dashboard/ecommerce', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\UserController->ecommerce()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')

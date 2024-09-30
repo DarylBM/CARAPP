@@ -1,0 +1,36 @@
+CRITICAL - 2024-09-30 01:41:33 --> ErrorException: Undefined variable $carCount
+in APPPATH\Views\layouts\dashboard.php on line 91.
+ 1 APPPATH\Views\layouts\dashboard.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carCount', 'C:\\laragon\\www\\cappppp\\app\\Views\\layouts\\dashboard.php', 91)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\cappppp\\app\\Views\\layouts\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('layouts/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(39): view('layouts/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Admin->search()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\cappppp\\public\\index.php')
+CRITICAL - 2024-09-30 02:02:36 --> ErrorException: Undefined array key "brand"
+in APPPATH\Views\user\car_list.php on line 319.
+ 1 APPPATH\Views\user\car_list.php(319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "brand"', 'C:\\laragon\\www\\cappppp\\app\\Views\\user\\car_list.php', 319)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\cappppp\\app\\Views\\user\\car_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/car_list', [], true)
+ 5 APPPATH\Controllers\ProductController.php(20): view('user/car_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProductController->indexs()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\cappppp\\public\\index.php')
+CRITICAL - 2024-09-30 02:16:52 --> ErrorException: Undefined array key "details"
+in APPPATH\Views\user\car_list.php on line 299.
+ 1 APPPATH\Views\user\car_list.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "details"', 'C:\\laragon\\www\\cappppp\\app\\Views\\user\\car_list.php', 299)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\cappppp\\app\\Views\\user\\car_list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/car_list', [], true)
+ 5 APPPATH\Controllers\ProductController.php(20): view('user/car_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProductController->indexs()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\cappppp\\public\\index.php')

@@ -1,0 +1,60 @@
+CRITICAL - 2024-04-08 07:59:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Config\Routes.php(31): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(892): CodeIgniter\Router\RouteCollection->{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-08 08:00:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/featured_cars.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/featured_cars.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('layout/featured_cars', [], true)
+ 3 APPPATH\Config\Routes.php(33): view('layout/featured_cars')
+ 4 SYSTEMPATH\CodeIgniter.php(892): CodeIgniter\Router\RouteCollection->{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-08 08:00:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/featured_cars.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/featured_cars.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('layout/featured_cars', [], true)
+ 3 APPPATH\Config\Routes.php(33): view('layout/featured_cars')
+ 4 SYSTEMPATH\CodeIgniter.php(892): CodeIgniter\Router\RouteCollection->{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-08 08:00:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/featured_cars.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/featured_cars.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('layout/featured_cars', [], true)
+ 3 APPPATH\Config\Routes.php(33): view('layout/featured_cars')
+ 4 SYSTEMPATH\CodeIgniter.php(892): CodeIgniter\Router\RouteCollection->{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-08 08:00:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/featured_cars.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/featured_cars.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('layout/featured_cars', [], true)
+ 3 APPPATH\Config\Routes.php(33): view('layout/featured_cars')
+ 4 SYSTEMPATH\CodeIgniter.php(892): CodeIgniter\Router\RouteCollection->{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-08 08:01:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/featured_cars.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/featured_cars.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('layout/featured_cars', [], true)
+ 3 APPPATH\Config\Routes.php(33): view('layout/featured_cars')
+ 4 SYSTEMPATH\CodeIgniter.php(892): CodeIgniter\Router\RouteCollection->{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')

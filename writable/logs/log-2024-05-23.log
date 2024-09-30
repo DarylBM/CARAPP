@@ -1,0 +1,88 @@
+ERROR - 2024-05-23 18:10:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\CAPSTONENAMIN\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CAPSTONENAMIN\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'caps_db', 3306, '', 0)
+#1 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPSTONENAMIN\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPSTONENAMIN\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CAPSTONENAMIN\app\Controllers\CarController.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(943): App\Controllers\CarController->index()
+#8 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+#9 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CAPSTONENAMIN\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CAPSTONENAMIN\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\CAPSTONENAMIN\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\CAPSTONENAMIN\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CAPSTONENAMIN\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\CAPSTONENAMIN\app\Controllers\CarController.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(943): App\Controllers\CarController->index()
+#7 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+#8 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CAPSTONENAMIN\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CAPSTONENAMIN\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-23 18:10:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cardet`', [], false)
+ 3 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\CarController.php(22): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CarController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONENAMIN\\public\\index.php')
+ERROR - 2024-05-23 18:10:56 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\CAPSTONENAMIN\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CAPSTONENAMIN\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'caps_db', 3306, '', 0)
+#1 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPSTONENAMIN\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPSTONENAMIN\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CAPSTONENAMIN\app\Controllers\CarController.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(943): App\Controllers\CarController->index()
+#8 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+#9 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CAPSTONENAMIN\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CAPSTONENAMIN\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\CAPSTONENAMIN\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CAPSTONENAMIN\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\CAPSTONENAMIN\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CAPSTONENAMIN\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\CAPSTONENAMIN\app\Controllers\CarController.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(943): App\Controllers\CarController->index()
+#7 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+#8 C:\laragon\www\CAPSTONENAMIN\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CAPSTONENAMIN\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CAPSTONENAMIN\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-05-23 18:10:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cardet`', [], false)
+ 3 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\CarController.php(22): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CarController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONENAMIN\\public\\index.php')

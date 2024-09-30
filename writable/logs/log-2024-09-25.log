@@ -1,0 +1,50 @@
+CRITICAL - 2024-09-25 17:35:12 --> TypeError: CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, CodeIgniter\Validation\Validation given, called in C:\laragon\www\Backup\system\Controller.php on line 198
+in SYSTEMPATH\Validation\Validation.php on line 576.
+ 1 SYSTEMPATH\Controller.php(198): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH\Controller.php(152): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH\Controllers\ImageUpload.php(29): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ImageUpload->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImageUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Backup\\public\\index.php')
+CRITICAL - 2024-09-25 18:39:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "checkout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('checkout.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('checkout', [], true)
+ 3 APPPATH\Controllers\CarController.php(161): view('checkout', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CarController->checkout()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Backup\\public\\index.php')
+CRITICAL - 2024-09-25 18:39:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/checkout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/checkout.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/checkout', [], true)
+ 3 APPPATH\Controllers\CarController.php(161): view('/checkout', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CarController->checkout()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Backup\\public\\index.php')
+CRITICAL - 2024-09-25 18:40:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/checkout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/checkout.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/checkout', [], true)
+ 3 APPPATH\Controllers\CarController.php(161): view('/checkout', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CarController->checkout()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Backup\\public\\index.php')
+CRITICAL - 2024-09-25 18:41:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/cars/checkout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/cars/checkout.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/cars/checkout', [], true)
+ 3 APPPATH\Controllers\CarController.php(161): view('/cars/checkout', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CarController->checkout()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Backup\\public\\index.php')

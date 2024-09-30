@@ -1,0 +1,1436 @@
+CRITICAL - 2024-04-14 00:35:54 --> ErrorException: Undefined variable $username
+in APPPATH\Views\layout\hero.php on line 11.
+ 1 APPPATH\Views\layout\hero.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\CAPST\\app\\Views\\layout\\hero.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\layout\\hero.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/hero', null, true)
+ 5 APPPATH\Views\user\usertest.php(3): CodeIgniter\View\View->include('layout/hero')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\user\\usertest.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/usertest', [], true)
+ 9 APPPATH\Controllers\HomeController.php(10): view('user/usertest')
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 00:37:43 --> ErrorException: Undefined variable $name
+in APPPATH\Views\layout\hero.php on line 11.
+ 1 APPPATH\Views\layout\hero.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\laragon\\www\\CAPST\\app\\Views\\layout\\hero.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\layout\\hero.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/hero', null, true)
+ 5 APPPATH\Views\user\usertest.php(3): CodeIgniter\View\View->include('layout/hero')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\user\\usertest.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/usertest', [], true)
+ 9 APPPATH\Controllers\HomeController.php(10): view('user/usertest')
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->index()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 00:45:01 --> ParseError: syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\layout\hero.php on line 18.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/hero', null, true)
+ 3 APPPATH\Views\user\usertest.php(3): CodeIgniter\View\View->include('layout/hero')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\user\\usertest.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/usertest', [], true)
+ 7 APPPATH\Controllers\HomeController.php(10): view('user/usertest')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 00:45:10 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+in APPPATH\Views\layout\hero.php on line 26.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/hero', null, true)
+ 3 APPPATH\Views\user\usertest.php(3): CodeIgniter\View\View->include('layout/hero')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\user\\usertest.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/usertest', [], true)
+ 7 APPPATH\Controllers\HomeController.php(10): view('user/usertest')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-14 00:54:40 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'caps_db' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'caps_db', 3306, '', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovan@gmail.com', 'email', Array, NULL, 'email')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovan@gmail.com', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'caps_db' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovan@gmail.com', 'email', Array, NULL, 'email')
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovan@gmail.com', Array, Array)
+#6 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#7 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#8 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-04-14 00:54:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'caps_db'
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovan@gmail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovan@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-14 00:55:12 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'caps_db' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'caps_db', 3306, '', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovan@gmail.com', 'email', Array, NULL, 'email')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovan@gmail.com', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'caps_db' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovan@gmail.com', 'email', Array, NULL, 'email')
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovan@gmail.com', Array, Array)
+#6 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#7 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#8 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-04-14 00:55:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'caps_db'
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovan@gmail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovan@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-14 00:55:32 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'caps_db' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'caps_db', 3306, '', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovan@gmail.com', 'email', Array, NULL, 'email')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovan@gmail.com', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'caps_db' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovan@gmail.com', 'email', Array, NULL, 'email')
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovan@gmail.com', Array, Array)
+#6 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#7 C:\laragon\www\CAPST\app\Controllers\SignupController.php(25): CodeIgniter\Controller->validate(Array)
+#8 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\SignupController->store()
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-04-14 00:55:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'caps_db'
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('jovan@gmail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jovan@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\SignupController.php(25): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SignupController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 02:01:23 --> ErrorException: Cannot declare class App\Filters\AuthGuard, because the name is already in use
+in APPPATH\Controllers\ProfileController.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-14 04:52:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(20): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 04:53:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(20): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 04:55:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(20): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 04:55:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(20): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 04:55:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(20): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 04:55:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(20): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:00:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(26): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:07:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(26): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:21:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\SigninController.php(58): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:21:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\SigninController.php(58): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:21:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\SigninController.php(58): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:21:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\SigninController.php(58): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:22:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\SigninController.php(58): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:22:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\SigninController.php(58): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:23:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\SigninController.php(58): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:23:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\SigninController.php(58): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:24:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\SigninController.php(58): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 05:24:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\SigninController.php(58): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 07:13:06 --> ErrorException: include(db_connection.php): Failed to open stream: No such file or directory
+in APPPATH\Views\user\profile.php on line 5.
+ 1 APPPATH\Views\user\profile.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(db_connection.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\CAPST\\app\\Views\\user\\profile.php', 5)
+ 2 APPPATH\Views\user\profile.php(5): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\user\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/profile', [], true)
+ 6 APPPATH\Controllers\SigninController.php(58): view('user/profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 08:08:02 --> ParseError: syntax error, unexpected token ")", expecting "{"
+in APPPATH\Config\Routes.php on line 34.
+ 1 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-04-14 08:18:29 --> ParseError: syntax error, unexpected token ")", expecting "{"
+in APPPATH\Config\Routes.php on line 33.
+ 1 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-04-14 08:20:05 --> ParseError: syntax error, unexpected token ")", expecting "{"
+in APPPATH\Config\Routes.php on line 33.
+ 1 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-04-14 08:20:27 --> ParseError: syntax error, unexpected token ")", expecting "{"
+in APPPATH\Config\Routes.php on line 34.
+ 1 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-04-14 08:24:14 --> ParseError: syntax error, unexpected token ")", expecting "{"
+in APPPATH\Config\Routes.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 08:24:38 --> ParseError: syntax error, unexpected token ")", expecting "{"
+in APPPATH\Config\Routes.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 09:36:43 --> ParseError: syntax error, unexpected token "=", expecting end of file
+in APPPATH\Views\backend\layout\pages-layout.php on line 63.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/layout/pages-layout', null, true)
+ 3 SYSTEMPATH\Router\RouteCollection.php(1117): CodeIgniter\View\View->render('example-page', null)
+ 4 SYSTEMPATH\CodeIgniter.php(892): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 09:39:09 --> ParseError: syntax error, unexpected token "=", expecting end of file
+in APPPATH\Views\backend\layout\pages-layout.php on line 79.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/layout/pages-layout', null, true)
+ 3 SYSTEMPATH\Router\RouteCollection.php(1117): CodeIgniter\View\View->render('example-page', null)
+ 4 SYSTEMPATH\CodeIgniter.php(892): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 10:16:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/page/auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/page/auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/page/auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(17): view('backend/page/auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginForm()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 10:24:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/page/auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/page/auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/page/auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(17): view('backend/page/auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 10:24:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/page/auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/page/auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/page/auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(17): view('backend/page/auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 10:24:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/page/auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/page/auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/page/auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(17): view('backend/page/auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 10:24:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/page/auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/page/auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/page/auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(17): view('backend/page/auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 10:28:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/page/auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/page/auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/page/auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(17): view('backend/page/auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 10:28:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/page/auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/page/auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/page/auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(17): view('backend/page/auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 10:28:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/page/auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/page/auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/page/auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(17): view('backend/page/auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 11:14:57 --> ParseError: syntax error, unexpected identifier "value", expecting "," or ";"
+in APPPATH\Views\backend\pages\auth\login.php on line 41.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/pages/auth/login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(18): view('backend/pages/auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:32:35 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:40:53 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:41:57 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:41:58 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:44:20 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:44:21 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:44:22 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:44:22 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:44:22 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:44:22 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:44:23 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:46:15 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 12:46:16 --> ParseError: syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\AuthController.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-14 13:15:07 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('hdhd', 'username', Array, NULL, 'login_id')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'hdhd', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\AuthController.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-14 13:15:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('hdhd', 'username', [...], null, 'login_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'hdhd', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:15:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'hdhd\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'hdhd\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('hdhd', 'username', [...], null, 'login_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'hdhd', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:15:07 --> [Caused by] mysqli_sql_exception: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'hdhd\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'hdhd\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'hdhd\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('hdhd', 'username', [...], null, 'login_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'hdhd', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-14 13:15:19 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', Array, NULL, 'login_id')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\AuthController.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-14 13:15:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:15:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:15:19 --> [Caused by] mysqli_sql_exception: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-14 13:16:30 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', Array, NULL, 'login_id')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\AuthController.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-14 13:16:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:16:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:16:30 --> [Caused by] mysqli_sql_exception: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-14 13:26:06 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', Array, NULL, 'login_id')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\AuthController.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-14 13:26:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:26:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:26:06 --> [Caused by] mysqli_sql_exception: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-14 13:39:12 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', Array, NULL, 'login_id')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\AuthController.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-14 13:39:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:39:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:39:12 --> [Caused by] mysqli_sql_exception: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'qq\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('qq', 'username', [...], null, 'login_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'qq', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+ERROR - 2024-04-14 13:39:29 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CAPST\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\CAPST\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\CAPST\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\CAPST\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CAPST\system\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CAPST\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('ikel', 'username', Array, NULL, 'login_id')
+#6 C:\laragon\www\CAPST\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'ikel', Array, Array)
+#7 C:\laragon\www\CAPST\system\Controller.php(154): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CAPST\app\Controllers\AuthController.php(49): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CAPST\system\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+#10 C:\laragon\www\CAPST\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\laragon\www\CAPST\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CAPST\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CAPST\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-14 13:39:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('ikel', 'username', [...], null, 'login_id')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'ikel', [...], [...])
+ 5 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:39:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'ikel\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'ikel\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('ikel', 'username', [...], null, 'login_id')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'ikel', [...], [...])
+ 7 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:39:29 --> [Caused by] mysqli_sql_exception: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'ikel\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'ikel\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'ikel\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(167): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('ikel', 'username', [...], null, 'login_id')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('login_id', 'login_id', 'ikel', [...], [...])
+ 8 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\AuthController.php(49): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:50:06 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:50:40 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:51:08 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 13:53:17 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 14:31:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\user\profile.php on line 70.
+ 1 APPPATH\Views\user\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\CAPST\\app\\Views\\user\\profile.php', 70)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\SigninController.php(69): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 14:32:05 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\user\profile.php on line 70.
+ 1 APPPATH\Views\user\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\CAPST\\app\\Views\\user\\profile.php', 70)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\SigninController.php(69): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 14:32:12 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\user\profile.php on line 70.
+ 1 APPPATH\Views\user\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\CAPST\\app\\Views\\user\\profile.php', 70)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\SigninController.php(69): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\SigninController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 15:35:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/layout/ecommerce-layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/layout/ecommerce-layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/layout/ecommerce-layout', null, true)
+ 3 SYSTEMPATH\Router\RouteCollection.php(1117): CodeIgniter\View\View->render('ecommerce', null)
+ 4 SYSTEMPATH\CodeIgniter.php(892): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:03:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\HomeController.php(40): view('user/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:05:32 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:07:49 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:12:58 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:20:04 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:20:10 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:20:57 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:21:29 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:22:40 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:32:18 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:32:58 --> ErrorException: Undefined variable $userInfo
+in APPPATH\Controllers\AuthController.php on line 74.
+ 1 APPPATH\Controllers\AuthController.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userInfo', 'C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:33:15 --> ErrorException: Undefined variable $userInfo
+in APPPATH\Controllers\AuthController.php on line 74.
+ 1 APPPATH\Controllers\AuthController.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userInfo', 'C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 16:41:30 --> Error: Class "App\Models\User" not found
+in APPPATH\Controllers\AuthController.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 17:06:11 --> ErrorException: Undefined property: App\Controllers\AuthController::$load
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 APPPATH\Controllers\AuthController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AuthController::$load', 'C:\\laragon\\www\\CAPST\\app\\Controllers\\AuthController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->loginHandler()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 17:37:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 3 APPPATH\Controllers\HomeController.php(40): view('user/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 17:49:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\HomeController.php(40): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 17:49:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\HomeController.php(40): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 17:49:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\HomeController.php(40): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 17:52:53 --> RuntimeException: View themes, no current section.
+in SYSTEMPATH\View\View.php on line 425.
+ 1 APPPATH\Views\dashboard.php(5): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\HomeController.php(40): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
+CRITICAL - 2024-04-14 17:54:23 --> ErrorException: include(inc/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\backend\layout\pages-layout.php on line 68.
+ 1 APPPATH\Views\backend\layout\pages-layout.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(inc/footer.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\CAPST\\app\\Views\\backend\\layout\\pages-layout.php', 68)
+ 2 APPPATH\Views\backend\layout\pages-layout.php(68): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\CAPST\\app\\Views\\backend\\layout\\pages-layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/layout/pages-layout', [], true)
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 7 APPPATH\Controllers\HomeController.php(40): view('dashboard')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->admin()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPST\\public\\index.php')
